@@ -10,7 +10,7 @@
     --main-color: #1d1e4c;
 }
 
-::selection{
+::selection {
     background: #fff;
 }
 
@@ -21,7 +21,7 @@ html {
 body {
     background-color: var(--bg);
     padding: 5rem 15rem;
-    border: 10px solid var(--main-color);
+    border: 1rem solid var(--main-color);
 }
 
 .flexbox {
@@ -102,13 +102,13 @@ a:link, a:visited {
 
 @media only screen and (max-width: 830px) {
     main {
-        padding: 6rem 0;
+        padding: 4rem 0;
     }
 
     img {
         margin: auto;
-        width: 22rem;
-        height: 22rem;
+        width: 20rem;
+        height: 20rem;
     }
 
     .flexbox {
@@ -123,26 +123,22 @@ a:link, a:visited {
 
 @media (max-width: 556px) {
     html {
-        font-size: 38%;
+        font-size: 40%;
     }
 
     body {
-        padding: 4rem;
+        padding: 2rem;
+        border-width: .2rem;
     }
-}
 
-@media (max-width: 422px) {
-    html {
-        font-size: 35%;
+    .about-him {
+        font-size: 2.5rem;
+        line-height: 1.7;
     }
 
     span {
         display: block;
         text-align: center;
         margin-bottom: 1rem;
-    }
-
-    body {
-        padding: 4rem;
     }
 }
