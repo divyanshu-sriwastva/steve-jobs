@@ -123,12 +123,12 @@ a:link, a:visited {
 
 @media (max-width: 556px) {
     html {
-        font-size: 40%;
+        font-size: 41%;
     }
 
     body {
-        padding: 2rem;
-        border-width: .2rem;
+        padding: 1.5rem;
+        border-width: .5rem;
     }
 
     .about-him {
